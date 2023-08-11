@@ -1,0 +1,297 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+ 
+.body{
+    /* width: 130%; */
+
+    height: 100vh;
+}
+.aboutinfo{
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* height: 60px; */
+    /* margin-top: 10rem; */
+    /* width: 100vw; */
+   
+}
+.pic{
+    /* background: url('pic.jpeg') no-repeat center center; */
+    background-size: cover;
+    opacity: 6;
+    /* border: 2px solid red; */
+    /* border-radius: 250px; */
+    width: 20em;
+   margin: auto;
+    /* box-sizing: border-box; */
+    height: 25em;
+    border-radius: 10px;
+    
+    /* padding: 0px; */
+}
+.picture{
+    /* border: 2px solid red; */
+    margin: auto;
+    /* width: 10rem; */
+
+}
+.info{
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-left: 2rem; */
+
+
+
+}
+.info3{
+    /* margin-top: 0.4em; */
+    /* padding: 1rem; */
+    width: 90%;
+}
+.info3 p{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 0px;
+    /* margin-top: 8px; */
+   width: 299px;
+   margin-bottom:10px ;
+   font-size: 12px;
+}
+.info span{
+    /* border: 2px solid red; */
+    /* display: block; */
+    margin-left: 30px;
+
+}
+.name{
+    
+    padding: 0.2em 0.3em;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+}
+#Education{
+    padding: 0px;
+  
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 2px solid red; */
+
+}
+#Education span{
+    /* font-size: 10px; */
+}
+.e{
+    /* border: 2px solid red; */
+    /* width: 100vw; */
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+.edu{
+    flex-direction: column;
+    margin-top: 40px;
+    /* margin-left: 30px; */
+    /* border: 2px solid red; */
+   margin-left: 16px;
+ 
+     
+
+}
+.edubar{
+    margin: 10px;
+    width: 40%;
+}
+@media screen and (max-width: 500px){
+    .edubar{
+        margin: 10px;
+        /* border: 9px solid red; */
+        width: 80%;
+        height: 48vh;
+    }
+}
+.fill{
+    width: 74vw;
+    animation-name: hamza;
+    animation-duration: 4s ;
+    height: 9px;
+
+}
+@keyframes hamza{
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 74vw;
+    }
+}
+.fill1{
+    width:68vw;
+    height: 9px;
+
+overflow: hidden; animation-name: w1;
+animation-duration: 4s ;
+}
+@keyframes w1{
+from{
+    width: 0vw;
+}
+to{
+    width: 68vw;
+}}
+.fill2{
+    height: 9px;
+    width: 58vw;  
+    overflow: hidden; animation-name: w2;
+    animation-duration: 4s ;
+}
+@keyframes w2{
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 58vw;
+    }}
+    .fill3{
+        width: 45vw;
+        overflow: hidden; animation-name: w3;
+    animation-duration: 4s ;
+    height: 9px;
+}
+@keyframes w3{
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 45vw;
+    }}
+ .cc{
+    width: 75vw;
+ }
+ .cc1{
+    width: 71vw;
+ }
+ .cc2{
+    width: 60vw;
+ }
+ .cc3{
+    width: 47vw;
+ }
+.conicon span{
+    /* width: 100vw; */
+
+}
+.skillsec{
+  /* margin-left: 5.7rem;    */
+} 
+.skillsec p{
+    font-size: 0.8rem;
+}
+.C{
+    width: 80%;
+}
+.skill1{
+    /* width: 100vw; */
+    /* margin-left: 15px; */
+    width: 80vw;
+    margin: 0px;
+}
+form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* width: 100vw; */
+    /* margin-top: 3rem; */
+}
+.submit{
+    width: 40vw;
+    margin-left: 3rem;
+    height: 2em;
+}
+
+.bio{
+    font-size: 1rem;
+    height: 1em;
+    margin-top: 2px;
+    font-weight: bolder;
+}
+.bio i{
+    font-size: 17px;
+}
+#worK{
+    margin-right: 0px;
+}
+#biography{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 0px;
+    font-weight: bolder;
+    margin: auto;
+}
+.bio{
+    height: 20px;
+    font-size: small;
+}
+#Contact{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 0px;
+ margin-top: 4em;
+ margin-bottom: 4em;
+    /* border: 2px solid red;   */
+}
+.particular{
+    /* border: 2px solid red; */
+    padding: 0px;
+    width: 15rem;
+    font-size: 1.5rem;
+    
+}
+.input{
+    width: 21em;
+}
+.clickcontact{
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: small;
+    width: 60%;
+    margin-top: 10em;
+}
+.conicon{
+    padding: 15px;
+}
+footer{
+    display: flex;
+    /* margin: 10px; */
+    flex-direction: row;
+}
+.navbar{
+    /* display: flex; */
+}
+.footer{
+    /* flex-direction: column; */ 
+    /* width: 190vw; */
+}
+.footer ul li a{
+    font-size: 0.5rem;
+    padding: 1px;
+}
+.footer ul li {
+   margin: 5px;
+}
+
+.links ul li a i{
+    /* display: none; */
+    font-size: 0.5rem;
+}
